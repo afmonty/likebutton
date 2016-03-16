@@ -1,0 +1,15 @@
+
+.buttonHolder{
+	margin-top: 20em;
+	margin-left: 15em;
+	text-align: center;
+	border: 1px solid black;
+	height: 5em;
+	width: 15em;
+	padding-top: 2em;
+}
+
+input{
+	height: 5em; 
+	width: 15em;
+}
