@@ -1,12 +1,12 @@
 //listen for click on button
 
-var btn = document.querySelector("input");
-console.log(btn);
-btn.addEventListener("click", counter);
+var btn = document.querySelector(".buttonHolder");
 var clickCounter = 0;
-var counter = function(click){
+
+
+btn.addEventListener("click", function(){
 	clickCounter = clickCounter + 1;
 	 console.log(clickCounter);
-};
-counter();
-console.log(clickCounter);
+	 document.querySelector(".buttonHolder").innerHTML = clickCounter + " likes";
+});
+
